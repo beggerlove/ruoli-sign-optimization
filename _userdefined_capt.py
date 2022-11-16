@@ -1,7 +1,7 @@
 import requests
 from time import sleep
-API_KEY = ""
-SECRET_KEY = ""
+API_KEY = "rj3KdgvNyHCrlmNL3tWjVTX4"
+SECRET_KEY = "rVx9AfIkXUkDAQFzEN99iZqobcLSoHUx"
 
 def main(imgurl):
         
