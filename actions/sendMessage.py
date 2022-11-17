@@ -134,12 +134,12 @@ class Pushplus:
                     parse.urlparse(self.parameters).path)  # 解析参数
                 params = {k: params.copy()[k][0]
                           for k in params.copy()}  # 解析参数
-                params.update({'title': '122版今日校园', 'content': '签到success'})
+                params.update({'title': title, 'content': msg})
             else:  # 如果参数是token本身
                 params = {
                     'token': self.parameters,
-                    'title': '122版今日校园',
-                    'content': '签到success',
+                    'title': title,
+                    'content': msg,
                 }
             # 准备发送
             headers = {
